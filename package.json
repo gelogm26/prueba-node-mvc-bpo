@@ -1,0 +1,24 @@
+{
+  "name": "prueba-node-mvc-bpo",
+  "version": "1.0.0",
+  "description": "API BPO MVC con Node, Express, Sequelize y MySQL",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "sequelize": "^6.32.1",
+    "mysql2": "^3.2.0",
+    "joi": "^17.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
